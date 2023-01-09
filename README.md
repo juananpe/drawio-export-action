@@ -67,13 +67,13 @@ Path to the drawio files to export. Default `"."`.
 
 ### `format`
 
-Exported format. Default `"pdf"`.
+Exported format. Default `"pdf"`. 
 
 Possible values: adoc, md, jpg, pdf, png, svg, vsdx, xml
 
 ### `output`
 
-Exported folder name. Default `"export"`.
+Exported folder name. Default `"export"`. Relative to `path`.
 
 ### `remove-page-suffix`
 
