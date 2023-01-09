@@ -129,6 +129,8 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
+    with:
+      github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     needs:
       - os-testing-with-shallow-clone
       - os-testing-with-full-clone
