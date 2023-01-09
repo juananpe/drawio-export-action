@@ -13,7 +13,7 @@ inputs:
   output:
     description: 'Exported folder name'
     required: false
-    default: 'export'
+    default: '.'
   remove-page-suffix:
     description: 'Remove page suffix when possible (in case of single page file)'
     required: false
