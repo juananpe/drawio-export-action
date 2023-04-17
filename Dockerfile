@@ -1,6 +1,6 @@
 FROM rlespinasse/drawio-export:v4.6.0
 
-RUN apt-get update && apt-get install --no-install-recommends -y git=1:2.30.2-1 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install --no-install-recommends -y git=1:2.30.2-1 xmlstarlet && rm -rf /var/lib/apt/lists/*
 
 RUN wget https://github.com/google/fonts/archive/main.tar.gz -O gf.tar.gz
 RUN tar -xf gf.tar.gz
